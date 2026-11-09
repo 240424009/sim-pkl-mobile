@@ -1,0 +1,107 @@
+<template>
+  <div class="page" data-name="home" style="background-color: #f8fafc;">
+    
+    <!-- Navbar Luhur -->
+    <div class="navbar" style="background: white; border-bottom: 1px solid #e2e8f0;">
+      <div class="navbar-bg"></div>
+      <div class="navbar-inner sliding">
+        <div class="left">
+          <div style="font-weight: 800; color: #1e3a8a; font-size: 18px; margin-left: 16px;">
+            LPKIA
+          </div>
+        </div>
+        <div class="right">
+          <a href="#" class="link text-color-gray" style="font-size: 13px; margin-right: 16px;">Pembimbing LPKIA ▾</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Eusi Halaman -->
+    <div class="page-content" style="padding-top: calc(var(--f7-navbar-height) + 12px); padding-bottom: 30px;">
+      
+      <!-- Banner Wilujeng Sumping (Gradasi Biru) -->
+      <div class="card no-shadow" style="background: linear-gradient(135deg, #1e3a8a 0%, #2563eb 100%); border-radius: 16px; margin: 12px 16px; color: white; box-shadow: 0 4px 12px rgba(37, 99, 235, 0.2);">
+        <div class="card-content card-content-padding" style="padding: 18px;">
+          <div style="background: rgba(255,255,255,0.2); display: inline-block; padding: 4px 12px; border-radius: 20px; font-size: 11px; margin-bottom: 8px; font-weight: 600;">
+            👋 Selamat Datang kembali
+          </div>
+          <div style="font-size: 18px; font-weight: bold; line-height: 1.3;">Sistem Informasi & Monitoring PKL</div>
+          <div style="font-size: 12px; opacity: 0.9; margin-top: 6px; line-height: 1.4;">
+            Anda login sebagai <b>Pembimbing PKL LPKIA (Admin)</b>. Kelola data presensi, jurnal, dan aktivitas siswa di sini.
+          </div>
+        </div>
+      </div>
+
+      <!-- 4 Kartu Fitur & Statistik -->
+      <div class="block" style="margin: 0 16px; padding: 0;">
+        
+        <!-- Kartu 1: Total Siswa -->
+        <div class="card card-outline" style="border-radius: 14px; border-left: 4px solid #6366f1; margin: 0 0 12px 0;">
+          <div class="card-content card-content-padding" style="padding: 14px 16px;">
+            <div style="font-size: 10px; font-weight: 700; color: #64748b; letter-spacing: 0.5px;">TOTAL SISWA PKL</div>
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 6px;">
+              <span style="font-size: 26px; font-weight: bold; color: #1e293b;">0</span>
+              <span style="font-size: 22px;">👥</span>
+            </div>
+            <a href="#" class="link" style="font-size: 12px; color: #4f46e5; font-weight: 600; margin-top: 4px; display: inline-block;">Lihat Detail Data Siswa →</a>
+          </div>
+        </div>
+
+        <!-- Kartu 2: Presensi Harian -->
+        <div class="card card-outline" style="border-radius: 14px; border-left: 4px solid #0ea5e9; margin: 0 0 12px 0;">
+          <div class="card-content card-content-padding" style="padding: 14px 16px;">
+            <div style="font-size: 10px; font-weight: 700; color: #64748b; letter-spacing: 0.5px;">PRESENSI HARIAN (HARI INI)</div>
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 6px;">
+              <span style="font-size: 24px; font-weight: bold; color: #1e293b;">0 <span style="font-size: 14px; color: #94a3b8; font-weight: normal;">/ 0 Siswa</span></span>
+              <span style="font-size: 20px;">🔳</span>
+            </div>
+            <div style="font-size: 11px; color: #64748b; margin-top: 4px;">Tampilkan QR Code harian untuk di-scan oleh siswa PKL.</div>
+            <a href="#" class="link" style="font-size: 12px; color: #0284c7; font-weight: 600; margin-top: 6px; display: inline-block;">Tampilkan QR Code →</a>
+          </div>
+        </div>
+
+        <!-- Kartu 3: Verifikasi Jurnal -->
+        <div class="card card-outline" style="border-radius: 14px; border-left: 4px solid #10b981; margin: 0 0 12px 0;">
+          <div class="card-content card-content-padding" style="padding: 14px 16px;">
+            <div style="font-size: 10px; font-weight: 700; color: #64748b; letter-spacing: 0.5px;">JURNAL KEGIATAN</div>
+            <div style="font-size: 16px; font-weight: bold; color: #1e293b; margin-top: 4px;">Verifikasi Jurnal</div>
+            <div style="font-size: 11px; color: #64748b; margin: 4px 0;">Cek dan berikan penilaian / approval jurnal siswa.</div>
+            <a href="#" class="link" style="font-size: 12px; color: #059669; font-weight: 600; display: inline-block;">Buka Verifikasi →</a>
+          </div>
+        </div>
+
+        <!-- Kartu 4: Verifikasi Perizinan -->
+        <div class="card card-outline" style="border-radius: 14px; border-left: 4px solid #f59e0b; margin: 0 0 12px 0;">
+          <div class="card-content card-content-padding" style="padding: 14px 16px;">
+            <div style="font-size: 10px; font-weight: 700; color: #64748b; letter-spacing: 0.5px;">PERIZINAN SISWA</div>
+            <div style="font-size: 16px; font-weight: bold; color: #1e293b; margin-top: 4px;">Verifikasi Perizinan</div>
+            <div style="font-size: 11px; color: #64748b; margin: 4px 0;">Cek surat izin & ketidakhadiran siswa PKL.</div>
+            <a href="#" class="link" style="font-size: 12px; color: #d97706; font-weight: 600; display: inline-block;">Buka Verifikasi →</a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Card Presensi Hari Ini -->
+      <div class="card card-outline" style="border-radius: 14px; margin: 0 16px 20px 16px;">
+        <div class="card-header" style="font-size: 14px; font-weight: bold; color: #1e293b; padding: 14px 16px;">
+          <span>Presensi Hari Ini</span>
+          <a href="#" class="link" style="font-size: 12px; color: #2563eb; font-weight: 600;">Lihat Selengkapnya →</a>
+        </div>
+        <div class="card-content" style="padding: 0 16px 16px 16px;">
+          <div style="font-size: 12px; color: #94a3b8; margin-bottom: 8px;">Ringkasan 5 siswa terbaru yang melakukan presensi hari ini.</div>
+          <div style="text-align: center; padding: 20px; background: #f8fafc; border-radius: 10px; color: #64748b; font-size: 13px;">
+            Belum ada siswa yang melakukan presensi hari ini
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</template>
+
+<script>
+export default () => {
+  return $render;
+}
+</script>
